@@ -1,6 +1,6 @@
 @import "normalize.css";
 @import "base/_variables";
-@import "base/_mixins";
+@import "base/_mixins"; 
 @import "base/_global";
 @import "modules/_wrapper";
 @import "modules/_row";
@@ -12,3 +12,4 @@
 @import "modules/_generic-content-container";
 @import "modules/_section-title";
 @import "modules/_feature-item";
+@import "modules/_testimonials";
