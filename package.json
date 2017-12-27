@@ -1,0 +1,37 @@
+{
+  "name": "travel-site-files",
+  "version": "1.0.0",
+  "description": "lalaaa",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allii1/new-site.git"
+  },
+  "keywords": [
+    "alo"
+  ],
+  "author": "ali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/allii1/new-site/issues"
+  },
+  "homepage": "https://github.com/allii1/new-site#readme",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "normalize.css": "^7.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.2.3",
+    "browser-sync": "^2.21.0",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^7.0.0",
+    "gulp-watch": "^4.3.11",
+    "postcss-import": "^11.0.0",
+    "postcss-mixins": "^6.2.0",
+    "postcss-nested": "^3.0.0",
+    "postcss-simple-vars": "^4.1.0"
+  }
+}
