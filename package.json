@@ -37,6 +37,7 @@
     "gulp-svg2png": "^2.0.2",
     "gulp-watch": "^4.3.11",
     "jquery": "^3.2.1",
+    "jquery-smooth-scroll": "^2.2.0",
     "postcss-hexrgba": "^1.0.0",
     "postcss-import": "^11.0.0",
     "postcss-mixins": "^6.2.0",
