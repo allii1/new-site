@@ -1,15 +1,19 @@
 @import "normalize.css";
 @import "base/_variables";
-@import "base/_mixins"; 
 @import "base/_global";
+@import "base/_mixins"; 
 @import "modules/_wrapper";
 @import "modules/_row";
 @import "modules/_btn";
 @import "modules/_large-hero";
-
-@import "modules/_headline";
 @import "modules/_page-section";
-@import "modules/_generic-content-container";
 @import "modules/_section-title";
+@import "modules/_generic-content-container";
+@import "modules/_headline";
 @import "modules/_feature-item";
 @import "modules/_testimonials";
+@import "modules/_sprite";
+@import "modules/_site-footer";
+@import "modules/_site-header";
+@import "modules/_primary-nav";
+@import "modules/_reveal-item";

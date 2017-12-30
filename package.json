@@ -20,18 +20,30 @@
   },
   "homepage": "https://github.com/allii1/new-site#readme",
   "dependencies": {
-    "jquery": "^3.2.1",
     "normalize.css": "^7.0.0"
   },
   "devDependencies": {
     "autoprefixer": "^7.2.3",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
     "browser-sync": "^2.21.0",
+    "del": "^3.0.0",
     "gulp": "^3.9.1",
+    "gulp-modernizr": "^1.0.0-alpha",
     "gulp-postcss": "^7.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-svg-sprite": "^1.3.7",
+    "gulp-svg2png": "^2.0.2",
     "gulp-watch": "^4.3.11",
+    "jquery": "^3.2.1",
+    "postcss-hexrgba": "^1.0.0",
     "postcss-import": "^11.0.0",
     "postcss-mixins": "^6.2.0",
     "postcss-nested": "^3.0.0",
-    "postcss-simple-vars": "^4.1.0"
+    "postcss-simple-vars": "^4.1.0",
+    "waypoints": "^4.0.1",
+    "webpack": "^3.10.0",
+    "wepack": "0.0.1"
   }
 }

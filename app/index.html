@@ -11,26 +11,47 @@
 <link rel="stylesheet" href="temp/styles/styles.css">
 </head>
 <body>
-  <header>
-    <img src="assets/images/icons/clear-view-escapes.svg">
-      
+
+
+  <header class="site-header">
+          <div class="wrapper">
+              
+              <div class="site-header__menu-icon">
+<!--              <div class="site-header__menu-icon__top"></div>-->
+              <div class="site-header__menu-icon__middle"></div>
+<!--              <div class="site-header__menu-icon__bottom"></div>-->
+              
+              
+              </div>
+  
+    <div class="site-header__logo">
+        <div class= "site-header__logo__graphic icon icon--clear-view-escapes"> Clear View Escapes</div>
+      </div>
+              
+                <div class="site-header__menu-content">
+        <div class="site-header__btn-container">
     <a href="#" class="btn">Get in Touch</a>
-    <nav>
+              </div>
+
+            
+                  <nav class="primary-nav primary-nav--pull-right">
       <ul>
         <li><a href="#our-beginning">Our Beginning</a></li>
         <li><a href="#features">Features</a></li>
         <li><a href="#testimonials">Testimonials</a></li>
       </ul>
     </nav>
+              </div>
+      </div>
   </header>
 
   <div class="large-hero">
 <picture>
       
-      <source srcset = "assets/images/hero--large-i.jpg 1920w, assets/images/hero--large-hi-dpi-i.jpg 3840w" media="(min-width: 1380px)">
+      <source srcset = "assets/images/hero--large.jpg 1920w, assets/images/hero--large-hi-dpi.jpg 3840w" media="(min-width: 1380px)">
       <source srcset = "assets/images/hero--medium-i.jpg" media="(min-width: 990px)">
       <source srcset = "assets/images/hero--small-i.jpg" media="(min-width: 640px)">
-      <img src="assets/images/hero--smaller-hi-dpi-i.jpg" alt="Coastal view of" class="large-hero__image">
+      <img src="assets/images/hero--smaller-hi-dpi.jpg" alt="Coastal view of" class="large-hero__image">
       </picture>
       <div class="large-hero__text-content">
     <h1 class="large-hero__title">Your clarity.</h1>
@@ -81,7 +102,7 @@
       
       <div class="wrapper">
    
-    <h2 class="section-title"> <img class="section-title--icon" src="assets/images/icons/star.svg">Our <strong> Features</strong></h2>
+    <h2 class="section-title"><i class="icon icon--star section-title__icon"></i> Our <strong> Features</strong></h2>
           
           
     <div class="row row--gutters-large generic-content-container">
@@ -185,6 +206,7 @@
         </div>
           
           
+    
         
           
           </div>
@@ -197,8 +219,13 @@
   </div>
       </div>
 
-  <footer>
-    <p>Copyright &copy; 2016 Clear View Escapes. All rights reserved. <a href="#" class="btn btn__orange">Get in Touch</a></p>
+  <footer class="site-footer">
+      
+      <div class="wrapper">
+    <p> <span class="site-footer__text">Copyright &copy; 2016 Clear View Escapes. All rights reserved.</span> <a href="#" class="btn btn__orange">Get in Touch</a></p>
+          </div>
   </footer>
+    
+    <script src="/temp/scripts/App.js"></script>
 </body>
 </html>
