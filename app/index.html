@@ -9,6 +9,7 @@
   <meta name="description" content="Your clarity. One trip away. We create soul restoring journeys that inspire you to be you.">
 
 <link rel="stylesheet" href="temp/styles/styles.css">
+<script src="temp/scripts/vendor.js"></script>
 </head>
 <body>
 
@@ -30,7 +31,7 @@
               
                 <div class="site-header__menu-content">
         <div class="site-header__btn-container">
-    <a href="#" class="btn">Get in Touch</a>
+    <a href="#" class="btn open-modal">Get in Touch</a>
               </div>
 
             
@@ -57,7 +58,7 @@
     <h1 class="large-hero__title">Your clarity.</h1>
     <h2 class="large-hero__subtitle">One trip away.</h2>
     <p class="large-hero__description">We create soul restoring journeys that inspire you to be you.</p>
-    <p><a href="#" class="btn btn__orange btn__large">Get Started Today</a></p>
+    <p><a href="#" class="btn btn__orange btn__large open-modal">Get Started Today</a></p>
         </div>
   </div>
 
@@ -67,16 +68,16 @@
     <h2 class="headline headline--center headline--light headline--b-margin-small">The first trip we planned <strong> was our own.</strong></h2>
     <h3 class="headline headline--center headline--orange headline--small headline--narrow headline--light headline--b-margin-large">Ever since, we&rsquo;ve been working to make travel<strong> better for everyone.</strong></h3 >
     <div class="wrapper wrapper--medium wrapper--b-margin">
-        <img sizes = "(min-width: 970px) 976px, 100vw" srcset="assets/images/first-trip-low-res-i.jpg 570w, assets/images/first-trip-i.jpg 976w, assets/images/first-trip-hi-dpi-i.jpg 1952w" alt="Couple walking down a street.">
+        <img class="lazyload" sizes = "(min-width: 970px) 976px, 100vw" data-srcset="assets/images/first-trip-low-res-i.jpg 570w, assets/images/first-trip-i.jpg 976w, assets/images/first-trip-hi-dpi-i.jpg 1952w" alt="Couple walking down a street.">
     </div>
           
     <div class="row row--gutters">
         
     <div class="row__medium-4 row__medium-4--larger row__b-margin-until-medium">
         <picture>
-        <source sizes ="404px" srcset = "assets/images/our-starter-i.jpg 404w, assets/images/our-start-hi-dpi-i.jpg 808w" media= "(min-width: 1020px)">
-        <source sizes ="320px" srcset = "assets/images/our-start-portrait-i.jpg 320w, assets/images/our-start-portrait-hi-dpi-i.jpg 764w" media = "(min-width : 800px)" >
-        <img srcset="assets/images/our-start-landscape-i.jpg 800w, assets/images/our-start-landscape-hi-dpi-i.jpg 1600w" alt="Our co-founder">
+        <source sizes ="404px" data-srcset = "assets/images/our-starter-i.jpg 404w, assets/images/our-start-hi-dpi-i.jpg 808w" media= "(min-width: 1020px)">
+        <source sizes ="320px" dtata-srcset = "assets/images/our-start-portrait-i.jpg 320w, assets/images/our-start-portrait-hi-dpi-i.jpg 764w" media = "(min-width : 800px)" >
+        <img class="lazyload" srcset="assets/images/our-start-landscape-i.jpg 800w, assets/images/our-start-landscape-hi-dpi-i.jpg 1600w" alt="Our co-founder">
         
         </picture>
         
@@ -111,8 +112,8 @@
             
         <div class="feature-item">
         
-         <img class="feature-item__icon" src="assets/images/icons/rain.svg">
-    <h3 class="feature-item__title">We&rsquo;ll Watch the Weather</h3>
+    <span class="icon icon--rain feature-item__icon"></span>
+    <h3  class="feature-item__title">We&rsquo;ll Watch the Weather</h3>
     <p>Download our app and we&rsquo;ll send you a notice if it&rsquo;s about to rain in the next 20 minutes around your current location. A good rain can be refreshing, but sometimes you just want to stay dry.</p>
          </div>
 
@@ -131,7 +132,8 @@
                    
         <div class="feature-item">
         
-            <img class="feature-item__icon" src="assets/images/icons/wifi.svg">
+    <span class="icon icon--wifi feature-item__icon"></span>
+    
     <h3 class="feature-item__title">Wi-Fi Waypoints</h3>
     <p>We only send you on trips to places we can personally vouch for as being amazing. Which means we&rsquo;ve mapped out where local wi-fi spots are and marked them in our app&rsquo;s map view.</p>
             
@@ -139,7 +141,8 @@
                    
         <div class="feature-item">
 
-    <img class="feature-item__icon" src="assets/images/icons/fire.svg">
+    <span class="icon icon--rain feature-item__icon"></span>
+   
     <h3 class="feature-item__title">Survival Kit</h3>
     <p>Everytime you book an escape with us we send you a survival kit with the finest materials. The kit will allow you to setup a tent, start a fire, scratch your own back and lower your taxes.</p>
             
@@ -155,7 +158,7 @@
           </div>
   </div>
 
-  <div id="testimonials" class="page-section page-section--no-b-padding-until-large page-section--testimonials" data-matching-link="#testimonials-link">
+  <div id="testimonials" class="page-section page-section--no-b-padding-until-large page-section--testimonials lazyloaded" data-matching-link="#testimonials-link">
       <div class="wrapper wrapper--no-padding-until-large">
   
     <h2 class="section-title section-title--blue">  <img class="section-title--icon" src="assets/images/icons/comment.svg">Real <strong>Testimonials</strong></h2>
@@ -167,7 +170,7 @@
               <div class="testimonials">
                   <div class="testimonials__photo">
 
-                  <img src="assets/images/testimonial-jane-i.jpg">
+                  <img class="lazyload" sizes = "160px" data-srcset="assets/images/testimonial-jane-i.jpg 160w, assets/images/testimonial-jane-hi-dpi-i.jpg 320w">
                       </div>
     <h3 class="testimonials__title">Jane Doe</h3>
     <h4 class="testimonials__subtitle">9 Time Escaper</h4>
@@ -181,7 +184,7 @@
         <div class="row__large-4">
              <div class="testimonials">
              <div class="testimonials__photo">
-           <img src="assets/images/testimonial-john-i.jpg">
+           <img class="lazyload" sizes = "160px" data-srcset="assets/images/testimonial-john-i.jpg 160w, assets/images/testimonial-john-hi-dpi-i.jpg 320w">
             </div>
     <h3 class="testimonials__title">John Smith</h3>
     <h4 class="testimonials__subtitle">4 Time Escaper</h4>
@@ -196,7 +199,7 @@
         <div class="row__large-4">
              <div class="testimonials testimonials--last">
          <div class="testimonials__photo">
-        <img src="assets/images/testimonial-cat-i.jpg">
+        <img class="lazyload" sizes = "160px" data-srcset="assets/images/testimonial-cat-i.jpg 160w, assets/images/testimonial-cat-hi-dpi-i.jpg 320w">
             </div>
     <h3 class="testimonials__title">Cat McKitty</h3>
     <h4 class="testimonials__subtitle">6 Time Escaper</h4>
@@ -222,10 +225,29 @@
   <footer class="site-footer">
       
       <div class="wrapper">
-    <p> <span class="site-footer__text">Copyright &copy; 2016 Clear View Escapes. All rights reserved.</span> <a href="#" class="btn btn__orange">Get in Touch</a></p>
+    <p> <span class="site-footer__text">Copyright &copy; 2016 Clear View Escapes. All rights reserved.</span> <a href="#" class="btn btn__orange open-modal">Get in Touch</a></p>
           </div>
   </footer>
     
+<div class="modal">
+    <div class="modal__inner">
+         <h2 class="section-title section-title--blue section-title--less-margin"> <span class="icon icon--mail section-title__icon wrapper--narrow"></span>
+Get in <strong>Touch</strong></h2>
+    <div class="wrapper">
+    <p class="modal__description"> We will have an online order system </p>
+        </div>
+    
+        <div class="social-icons">
+    
+    <a href="#" class="social-icons__icon"> <i class="icon icon--facebook"></i></a>
+    <a href="#" class="social-icons__icon"> <i class="icon icon--twitter"></i></a>
+    <a href="#" class="social-icons__icon"> <i class="icon icon--instagram"></i></a>
+    </div>
+            </div>
+    <div class="modal__close">X</div>
+    </div>
+    
     <script src="/temp/scripts/App.js"></script>
+    
 </body>
 </html>
